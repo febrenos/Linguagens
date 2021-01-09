@@ -1,2 +1,2 @@
 # Linguagens
-C#, JS, Linux...
+C#, JS, Linux e Bat
