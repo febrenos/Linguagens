@@ -1,0 +1,23 @@
+<button class="sqdOP yWX7d y3zKF" type="button">
+<span class="coreSpriteFacebookIcon AeB99">
+</span><span class="KPnG0">Entrar com o Facebook</span></button>
+
+ <!-- <button class="button" type="button"><span class="coreSpriteFacebookIcon"></span>
+                                <span class="fb">Entrar com o Facebook</span></button> -->
+
+        /*login with Facebook
+        .FacebookIcon {
+        background-position: -320px -224px;
+        height: 16px;
+        width: 16px;
+        }
+        .coreSpriteDropdownArrowWhite, .FacebookIcon {
+        background-repeat: no-repeat;
+        background-position: -187px -306px;
+        height: 6px;
+        width: 9px;
+        border: 0;
+        }
+        .fb{
+        font-weight: 600;
+        }*/

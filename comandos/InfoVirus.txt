@@ -1,0 +1,90 @@
+				TIPOS DE VIRUS
+
+KEYLOGGER
+Os keyloggers são softwares de computador que visam monitorar, 
+armazenar e enviar tudo o que foi digitado pela vítima para um terceiro. 
+Nos dias de hoje, os keyloggers são inseridos em outros códigos 
+prejudiciais como os trojans, que têm o objetivo de acessar dados bancários, existe 
+tambem o "virus-de-terror".
+
+
+ADWARE
+O adware é qualquer programa cuja função é executar automaticamente e exibir 
+um grande volume de anúncios, sem que o usuário tenha dado a devida permissão.
+
+BACKDOOR
+É um mecanismo usado por vários malwares para promover acesso remoto a softwares 
+ou à rede infectada. Esse programa busca explorar falhas problemáticas não 
+documentadas em aplicações instaladas, desatualizadas e do firewall para ter 
+acesso às portas do roteador.
+
+BROWSER HIJACKER
+Trata-se de um tipo de vírus de computador que tem por meta a mudança das principais
+ configurações do navegador. Quando instalado, modifica a homepage e as 
+formas de busca. Demonstram anúncios em páginas legítimas e redirecionam o usuário 
+para sites maliciosos que podem apresentar exploits ou outras pragas digitais.
+
+TROJAN HORSES
+Os Cavalos de Troia mantêm-se ocultos enquanto baixam e instalam ameaças em 
+computadores e laptops. São conhecidos por responder pelo primeiro estágio de infecção 
+de dispositivos digitais. Eles aparecem em mensagens de e-mail, arquivos de música, 
+sites maliciosos, entre outros.
+Além disso, esse tipo de vírus se aproveita de vulnerabilidades presentes 
+no navegador para instalar softwares maliciosos no computador.
+
+ROOTKIT
+Rootkit são trojans que usam mecanismos avançados de programação para serem 
+instalados em classes profundas ou não documentadas do sistema operacional. As suas 
+funções mais devastadoras são: a sua capacidade de recuperação, reinstalando-se mesmo 
+depois da limpeza do computador; e sua disseminação em alta velocidade.
+
+SPYWARE
+Esse tipo de software apresenta a característica de espionagem e visa captar dados 
+sobre os costumes dos usuários na internet, com o objetivo de distribuir propaganda 
+“customizada”.
+
+TIME BOMB
+O Time Bomb é um tipo de malware que apresenta contagem regressiva. Ele é uma ameaça 
+preordenada para ser executada em uma certa ocasião no sistema operacional, provocando 
+sérios danos.
+
+WORM 
+Esse tipo de vírus de computador apresenta a função de se autorreplicar sem a 
+necessidade de infectar arquivos legítimos, produzindo cópias funcionais de si mesmo. 
+Tais características fazem com que os worms se espalhem rapidamente por redes de 
+computadores e drives USB.
+Além disso, eles podem ser repassados por mensagens de e-mail, criando anexos 
+problemáticos e os enviando para as listas de contato da conta invadida.
+
+GREYWARE
+É um malware que se encontra na chamada zona cinzenta, entre o software normal 
+e um vírus, provocando mais irritação do que problemas, como programas de piada e 
+adware. Assim, o Greyware refere-se a uma ampla gama de softwares que são instalados 
+sem a permissão do usuário.
+
+JOKE PROGRAM
+Tratam-se de mecanismos ou códigos criados para provocar danos temporários ao 
+sistema operacional, como travamentos e alterações inesperadas de comportamento. 
+Os códigos dessa natureza não causam nenhum dano real ao computador.
+
+MACROS
+Os Macros são uma série de comandos coagidos que podem ser configurados em programas 
+como Word e Excel. Desse modo, vários documentos com instruções prejudiciais podem ser 
+criados, atingindo outros dados ou executando planos prejudiciais toda vez que eles 
+forem realizados. Em sua grande parte, a ação é feita ao abrir ou fechar um documento 
+dessa extensão.
+
+RANSOMWARE
+São códigos maliciosos que retêm arquivos ou todo o sistema do usuário por meio 
+de técnicas de criptografia. Após o “sequestro”, o malware apresenta mensagens 
+exigindo o depósito de uma certa quantia ou a compra de alguma mercadoria, informando 
+que em seguida fará o envio da senha que libera os arquivos. Contudo, mesmo depois do 
+pagamento, o usuário não recebe senha alguma.
+
+TROJAN BANKING
+É o trojan caracterizado pelo acesso a dados bancários, redes sociais, 
+sites de compras e servidores de e-mail. As formas utilizadas são as mesmas de 
+um trojan comum, sendo partilhado como um software ou arquivo legítimo, em sites 
+infectados ou e-mails.
+
+INFORMAÇOES VAZADAS: haveibeenpwned.com

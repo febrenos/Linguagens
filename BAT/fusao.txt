@@ -1,0 +1,2 @@
+cd desktop
+copy/b nomefoto.jpg + test.zip fusao.jpg

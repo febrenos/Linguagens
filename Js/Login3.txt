@@ -1,0 +1,67 @@
+//criar arquivo .handlebars
+//instalar express
+//instalar $ npm install --save body-parse --> para salvar como dependencia packet.jason
+//epress-handlesbars
+//mysql
+//mysql2
+//sequelize
+
+<h1>Formulario para cadstrar pagamento</h1>
+<form action="/add-pagamento">
+
+</form>
+
+
+//Criar aquivo app.js
+const express = require("express");
+const app = express();
+const handlebars = require("express-handlebars");
+
+app.engine('handlebars', handlebars({defaultLayout: 'main'}))
+app.set('view engine', 'handlebars')
+
+//Rotas
+app.get('/pagamento', function(req, res){
+	res.render('pagamento');
+});
+
+app.get('/cad-pagamento', function(req, res){
+	res.render('cad-pagamento');
+});
+
+app.post('/add-pagamento', function(req, res){
+	app.post("nome:" + req.body.nome + "<br>Valor:" + req.body.valor)
+});
+
+app.listen(8080);
+
+//db.js
+const Sequilize = require("sequelize")
+
+const sequilize = new Sequilize('nomeBanco', 'nomeusuario', 'senha'{
+	host: 'localhost', //indica q bd esta no proprio pc
+	dialect: 'mysql'
+})
+
+module.exports = {
+	Sequelize: Sequilize,
+	Sequelize: sequilize
+}
+
+//Pagamento.js
+const db = required('./db')
+
+const Pagamento = db.sequilize.define('Nometabela', {
+	nome: {
+		type: db.Sequelize.STRING
+	},
+	valor: {
+	type: db.Sequilize.DOUBLE
+	}
+
+})
+
+//criar tabela
+//pagamento.sync({force: true})
+
+module.exports = Pagamento

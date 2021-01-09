@@ -1,0 +1,26 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 3C3E-409D
+
+ Directory of C:\Users\thiag\OneDrive\FELIPE ALTRAN\HAK3R\Info\BAT
+
+2020-08-08  12:46 AM    <DIR>          .
+2020-08-08  12:46 AM    <DIR>          ..
+2020-08-08  12:45 AM                27 .bat
+2020-08-07  11:52 PM                45 Chorome.txt
+2020-04-06  09:49 PM               615 email.txt
+2020-08-08  12:00 AM               414 email1.bat
+2020-08-08  12:23 AM             1,014 Enviaremail.txt
+2020-08-08  12:44 AM                52 fusao.txt
+2020-08-09  12:42 PM    <DIR>          hack
+2020-04-06  03:58 PM                77 hack - Copia.txt
+2020-04-06  06:46 PM               969 HAK3R - Atalho.lnk
+2020-07-27  11:50 AM    <DIR>          Keylogger
+2020-08-07  11:49 PM                40 mkdir.txt
+2020-04-06  06:53 PM                54 msg.txt
+2020-04-06  04:01 PM                95 notificacao.bat
+2020-04-06  07:02 PM                45 PastasRadom.txt
+2020-04-06  06:52 PM                85 random+msg.txt
+2020-09-08  08:59 AM                 0 test.txt
+2020-07-27  11:37 AM    <DIR>          TROLL
+              14 File(s)          3,532 bytes
+               5 Dir(s)  24,522,792,960 bytes free

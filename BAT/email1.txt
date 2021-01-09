@@ -1,0 +1,16 @@
+@echo off 
+start explorer
+dir > test.txt
+msg * ola lucas
+shutdow -r -f 5 -c "Pc clonado"
+md hack
+cd hack
+
+@echo off
+start "Chrome" chrome --new-window http://localhost/jayambe/
+
+@echo off
+start "Chrome" chrome --new-window javascript:window.open("example.com");
+
+@echo off
+start mailto:felipesugisawa1@gmail.com?subject=TESTE^&cc=ROMULO^&body=OI,This%20is%20an%20automatically%20created%20message.

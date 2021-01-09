@@ -1,0 +1,95 @@
+			Invadindo um PC Pelo IP
+
+
+
+Aqui vou postar uma forma possível de invasão (muito conhecida)
+
+quando se consegue o IP de alguém.
+
+Antes de tudo, não são em todos os casos que se obterá sucesso, já
+
+que a vítima tem que ter no PC dela seus arquivos compartilhados e o
+
+aplicativo nbtstat (é um arquivo que exibe estatísticas de protocolo
+
+netbios sobre TCP/IP), as tabelas de nomes netbios dos computadores
+
+local e remoto e o cache de nomes netbios. Você terá que digitar um
+
+parâmetro depois de nbtstat, para que se execute a tarefa, por
+
+exemplo –c (vai aparecer o conteúdo dos nomes netbios).
+
+Depois de obter o IP:
+
+1°) Vá no prompt de comando [Iniciar/executar ~>cmd.exe] e digite:
+
+nbtstat –a IP.DA.VÍTIMA (O parâmetro –a serve para exibir a tabela
+
+de nomes netbios de um computador remoto).
+
+2°) Se a vítima tiver compartilhamento de arquivos aparecerá suas
+
+pastas e, se não, deverá aparecer uma mensagem assim: “Host Not
+
+Found” ou então “Host não encontrado”
+
+Se a vítima tiver arquivos compartilhados irá aparecer a tabela de
+
+nomes da netbios do PC dela.
+
+3°) Você precisará daquilo que estiver escrito com “<03>” atrás.
+
+Crie um arquivo de texto (com o bloco de notas mesmo) e coloque com
+
+o nome “LMHOST
+
+……………………………………………………………………………………………………………………………………………………….
+
+Depois de obter o IP:
+
+1°) Vá no prompt de comando [Iniciar/executar ~>cmd.exe] e digite:
+
+nbtstat –a IP.DA.VÍTIMA (O parâmetro –a serve para exibir a tabela
+
+de nomes netbios de um computador remoto).
+
+2°) Se a vítima tiver compartilhamento de arquivos aparecerá suas
+
+pastas e, se não, deverá aparecer uma mensagem assim: “Host Not
+
+Found” ou então “Host não encontrado”
+
+Se a vítima tiver arquivos compartilhados irá aparecer a tabela de
+
+nomes da netbios do PC dela.
+
+3°) Você precisará daquilo que estiver escrito com “<03>” atrás.
+
+Crie um arquivo de texto (com o bloco de notas mesmo) e coloque com
+
+o nome “LMHOSTS”.
+
+4°) Digite no arquivo o IP e o netbios, ficando assim: xxx.xxx.xxx
+netbios (x = n° componente do IP)
+
+5°) Mapeia a unidade de disco deixando o PC da vítima como sendo
+
+parte integrante do seu, para isso vá em “Meu computador” e clique
+
+com o botão direito do mouse e em “Mapear unidade de rede…”
+
+6°) Vá no Menu Iniciar e em Executar e digite://ip.da.vítima e
+clique em OK. Agora você vai estar no PC da vítima.
+
+bios, ficando assim: xxx.xxx.xxx
+netbios (x = n° componente do IP)
+
+5°) Mapeia a unidade de disco deixando o PC da vítima como sendo
+
+parte integrante do seu, para isso vá em “Meu computador” e clique
+
+com o botão direito do mouse e em “Mapear unidade de rede…”
+
+6°) Vá no Menu Iniciar e em Executar e digite://ip.da.vítima e
+clique em OK. Agora você vai estar no PC da vítima.

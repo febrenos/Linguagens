@@ -1,0 +1,42 @@
+			PROMPT CMD
+
+links
+
+https://www.dell.com/support/article/pt-br/sln265940/prompt-de-comando-o-
+que-%C3%A9-e-como-us%C3%A1-lo-em-um-sistema-dell?lang=pt
+
+https://olhardigital.com.br/dicas_e_tutoriais/noticia/como-usar-a-
+ferramenta-oficial-de-acesso-remoto-do-windows-no-pc-e-celular/82608
+
+/////
+Acesso Remoto
+
+A sintaxe do comando é NET USE * \\COMPUTADOR\LOCAL UNIDADE:
+
+Não podemos esquecer do asterisco “*” depois do NET USE, em seguida o 
+nome ou endereço IP do computador, podendo em seguida colocar o 
+local que desejamos entrar e em seguida vai ser a unidade. A unidade 
+padrão para a conexão é a Z:, 
+então se você não colocar nada, a unidade será a Z:.
+
+Para que você possa controlar uma máquina remotamente com este 
+recurso é necessário possuir o IP do 
+computador que foi configurado para o acesso remoto. 
+Para isto, basta seguir estes passos:
+
+1.Na máquina a ser controlada, aperte junto as teclas “Win + R” 
+e entre com o comando: cmd. Aperte “Enter”;
+
+No caso deste tutorial, o passo-a-passo foi realizado em uma rede local. 
+Caso você precise acessar a sua máquina de fora da rede, é necessário 
+fazer o redirecionamento da porta TCP 3389 no painel administrativo de 
+seu roteador.
+
+1.Agora que você já possui o IP da máquina a ser controlada, 
+você já pode prosseguir para o acesso remoto.
+
+2.Pelo menu Iniciar, acesse os “Acessórios do Windows” e abra o 
+“Conexão de Área de Trabalho Remota”;
+
+3No campo “Computador”, digite o IP da máquina a ser 
+controlada e clique em “Conectar”.

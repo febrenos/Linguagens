@@ -1,0 +1,17 @@
+			DDoS DERRUBAR SITES
+
+	O ataque de DDoS é uma ação mal-intencionada, bastante comum na
+internet, que visa derrubar um site ao simular sobrecarga no servidor, 
+serviço ou rede.
+	Para controlar essa rede de computadores o hacker manipula malwares, que
+tornam esses computadores, bots. Então, esses bots passam a ser controlados 
+remotamente pelo hacker, que envia instruções coordenadas.
+	Como cada bot tem um endereço IP diferente, o site reconhece cada um como 
+um usuário e o servidor, possivelmente, ultrapassa a sua capacidade, enfrentando
+a sobrecarga e travando.
+Webstress
+
+
+Links
+https://rockcontent.com/br/blog/ddos/
+https://sites.google.com/site/invasionbrazil014/home/como-derrubar-sites-grandes-em-3-minutos

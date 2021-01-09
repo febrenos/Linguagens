@@ -1,0 +1,21 @@
+É muito fácil enviar um e-mail do PowerShell, tudo o que você 
+precisa fazer é copiar o modelo fornecido e alterar alguns dos detalhes.
+
+$ EmailFrom = "yourgmailadress@gmail.com"
+$ EmailTo = "destination@somedomain.com"
+$ Subject = “ O assunto do seu email ”
+$ Body =“ O que você deseja que seu e-mail diga? ”
+$ SMTPServer =“ smtp.gmail.com ”
+$ SMTPClient = New-Object Net.Mail.SmtpClient ( $ SmtpServer, 587)
+$ SMTPClient.EnableSsl = $ true
+$ SMTPClient.Credentials = Novo Objeto System.Net.NetworkCredential (“usr”, “pass”);
+$ SMTPClient.Send ($ EmailFrom, $ EmailTo, $ Subject, $ Body)
+
+Você precisará alterar o seguinte:
+
+$ EmailFrom = Seu endereço do GMail
+$ EmailTo = O endereço de email do destinatário.
+$ Subject = O que você quer que o assunto do e-mail diga.
+$ Body = O que você quer que a parte principal do e-mail seja dita
+usr = Você precisará substituir por seu nome de usuário do Gmail.
+pass = Você precisará substitua por sua senha do GMail.

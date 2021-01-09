@@ -1,0 +1,107 @@
+			COMANDOS Kali LINUX basic
+
+--ABRIR A PROMPT
+abrir a ferramenta do arsenal do kalli
+control + alt + t
+control + l -limpar o terminal
+
+
+COMANDOS
+
+man man			-abrir o manual do manual 
+
+man (pwd) 		-tudo sobre pwd (oque voce quer saber)
+
+man ls			-todos os parametros listados (q para sair)
+
+man page		-manual 
+
+apropos (editor)	-achar manuais para editar
+
+apropos (compile)	-achar comandos para compilar
+
+
+reboot			-reiniciar
+
+tab 			-completa os comandos
+
+clear			-limpar a prompt
+
+history			-historico dos comandos digitados
+
+history -c		-limpa o historico (um parametro dentro d programa)
+
+pwd 			-onde voce esta
+
+cd (Desktop)		-ir para a area de trabalho
+
+
+ls			-listar o que tem dentro da pasta onde voce esta
+
+ls -R			-listar repository
+
+ls -l			-lista de forma mais detalhada
+
+ls -l -h ou -lh		-mais detalhado aindo
+
+ls -lh --color		-braco: .txt > azul: directory Verde: Compactado
+
+
+cd			-voltar uma pasta
+
+cd..			-voltar um diretorio
+
+whoami 			-que usuario voce e
+
+date 			-que dia e hj data, hora
+
+
+sudo su			-migrar para usuario adm
+
+su (nomeusuario)	-mudar de usuario
+
+adduser (nomeusuario)	-Adicionar ususario 
+
+
+mkdir (nomepasta)	-make directory criar pasta
+
+mkdir -p x/x/x/x	-criar pastas dentro de pastas
+
+
+rmdir			-apagar(so apaga diretorios vazios)
+
+rm -ff x		-apagar(apaga tudo)
+
+rm -ff x x		-apagar dois itens
+
+rm -rf /		-apagar Todo o sistema
+
+
+touch testo 		-criar arquivos
+
+touch script .js	-criar em java
+
+touch script .php	-criar em php
+
+
+cp x pasta/		-copia o arquivo x para a pasta
+
+mv x pasta/		-move arquivo para a apasta
+
+mv pasta/ pastanovo	-renomeia o nome de uma pasta
+
+mv arquivo arquivo2	-renomeia o nome do arquivo
+
+echo			-printar, escrever dentro de um arquivo 
+
+echo escrita > Arquivo	-coloca a palavra escrita dentro de arquivo
+
+echo escrita >> Arquivo	-escreve em baixo sem substituir o que ja esta escrito
+
+cat arquivo		-ve o que esta escrito dentro de arquivo
+
+file (nomeArquivo)	-para saber que tipo de arquivo que e
+
+
+
+
