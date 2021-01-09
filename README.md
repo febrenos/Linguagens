@@ -1,2 +1,2 @@
-# Liguagens
+# Linguagens
 C#, JS, Linux...
