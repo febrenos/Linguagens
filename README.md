@@ -1,7 +1,7 @@
 # Linguagens
 C#, JS, Linux e Bat
 # Sobre oque se trata?
-C#
+C#                                                                                                                                                                                 
  Comandos fundamentais e resolucoes de problemas
  
 JavaScript                                                                                                                                                                         
