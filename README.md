@@ -4,11 +4,11 @@ C#, JS, Linux e Bat
 C#
  Comandos fundamentais e resolucoes de problemas
  
-JavaScript
+JavaScript                                                                                                                                                                         
  Scripts basicos e intermediarios
  
-Linux
+Linux                                                                                                                                                                               
  Comandos basicos ao avancado, Fiz testes de wordlists para desencriptar uma rede de wifi, criar uma porta de rede e colocar um site no ar
  
- Bat
+ Bat                                                                                                                                                                               
   Um arquivo auto executavel que acessa a prompt Windows e consegue realizar diversas tarefas
